@@ -4,7 +4,7 @@ import { describe, expect, test } from 'vitest';
 import { readFileSync } from 'fs';
 import { McuMgrClient } from '../../src/client.js';
 import { config } from './helpers/device-config.js';
-import { NodeHidTransport } from './helpers/node-hid-transport.js';
+import { NodeHidTransport } from '../../src/node-hid.js';
 import { pickAlternateFirmware } from './helpers/firmware-picker.js';
 import { waitForDevice, waitForDeviceGone } from './helpers/usb-utils.js';
 

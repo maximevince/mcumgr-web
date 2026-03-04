@@ -3,7 +3,7 @@
 import { readFileSync } from 'fs';
 import { McuMgrClient } from '../../../src/client.js';
 import { config } from './device-config.js';
-import { NodeHidTransport } from './node-hid-transport.js';
+import { NodeHidTransport } from '../../../src/node-hid.js';
 import { parseMcubootVersion } from './usb-utils.js';
 
 function openTransport(): NodeHidTransport {

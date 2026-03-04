@@ -10,7 +10,7 @@ import {
   encodeHeader,
 } from '../../src/smp.js';
 import { config } from './helpers/device-config.js';
-import { NodeHidTransport } from './helpers/node-hid-transport.js';
+import { NodeHidTransport } from '../../src/node-hid.js';
 
 const { vid, pid } = config;
 

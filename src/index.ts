@@ -19,3 +19,4 @@ export {
 } from './smp.js';
 export { type Transport } from './transport.js';
 export { WebHidTransport, type WebHidOptions } from './webhid.js';
+export { NodeHidTransport, findDevicePath } from './node-hid.js';

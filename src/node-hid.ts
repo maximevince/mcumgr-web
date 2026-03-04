@@ -10,8 +10,8 @@ import {
   type SmpResponse,
   encodeHeader,
   decodeHeader,
-} from '../../../src/smp.js';
-import type { Transport } from '../../../src/transport.js';
+} from './smp.js';
+import type { Transport } from './transport.js';
 
 const FRAME_HDR_SIZE = 1;
 const PAYLOAD_SIZE = 62;
